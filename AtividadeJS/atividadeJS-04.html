@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtividadeJS-04</title>
+</head>
+<body>
+    <h1>Atividade-04</h1>
+    <button onclick="inicio()">CLIQUE AQUI!</button>
+    
+    <script>
+        function inicio() {
+            let produto = window.prompt ('Nome do produto:');
+            let preço = window.prompt (`Qual foi o preço?`);
+            let dinheiro = window.prompt (`Quanto você entregou?`);
+            let troco = dinheiro - preço;
+            alert ("O troco" + " é " + troco )
+        }
+    </script>
+</body>
+</html>
