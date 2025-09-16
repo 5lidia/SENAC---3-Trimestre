@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 01 - JavaScript </title>
+</head>
+<body>
+    <h1>Atividade 03 - JavaScript </h1>
+    <button onclick="inicio()">Converter Distância</button>
+
+       <script>
+        function inicio() {
+            let numero =parseInt(prompt('Digite a distância em metros:'));
+            let Km = numero / 1000;
+            let Hm = numero / 100;
+            let Dam = numero / 10;
+            let Dm = numero * 10;
+            let Cm = numero * 100;
+            let Mm = numero * 1000;
+            
+
+        window.alert(`A distância em ${numero} metros corresponde a: ${Km} km, ${Hm} hm , ${Dam} Dam, ${Dm} dm, ${Cm} cm e ${Mm} mm.`);
+        }
+
+    </script>
+</body>
+</html>
